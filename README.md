@@ -2,7 +2,7 @@
 
 This repository tracks my PhD proof-of-concept (POC) for **Explainable AI (XAI) in Healthcare** using GitHub Issues, Milestones, and a Project Board.  
 
-## 📅 Weekly Plan & Deliverables
+## Weekly Plan & Deliverables
 
 ### Week 0 (Aug 21–23): Prep
 - **Action**: Finalise scope, data assumptions, risks.  
@@ -48,7 +48,7 @@ This repository tracks my PhD proof-of-concept (POC) for **Explainable AI (XAI) 
 
 ---
 
-## 🔑 Five ML Concepts in Scope
+## Five ML Concepts in Scope
 1. **Feature Leakage** → avoid using future info in features.  
 2. **Calibration & Thresholds** → mapping model probability → action.  
 3. **Class Imbalance** → rare positive outcomes need handling.  
@@ -57,21 +57,18 @@ This repository tracks my PhD proof-of-concept (POC) for **Explainable AI (XAI) 
 
 ---
 
-## ⚕️ How AI Adds Value
+##  How AI Adds Value
 - **Speed & Consistency**: Automated note processing.  
 - **Traceability & Trust**: Transparent explanations for clinicians.  
 - **Standardization (GIRFT-aligned)**: Reduce unwarranted variation in clinical decision-making.  
 
 ---
 
-## 📚 Research Strategy
-For each KDD paper:  
+## Research Strategy
+For each Research paper:  
 - Problem addressed.  
 - XAI method used.  
 - How explanation was presented.  
 - Limitations noted.  
 
 ---
-
-## 🖼 Environment
-Screenshot confirming installed stack:  
