@@ -1,0 +1,45 @@
+name: Task
+description: Create a new task with deadlines and priority
+title: "[TASK] "
+labels: ["task"]
+body:
+  - type: input
+    id: start
+    attributes:
+      label: Start Date
+      description: When should this task begin?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: due
+    attributes:
+      label: Due Date
+      description: When should this task be finished?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: dropdown
+    id: iteration
+    attributes:
+      label: Iteration
+      description: Select the iteration number
+      options:
+        - Iteration 1
+        - Iteration 2
+        - Iteration 3
+        - Iteration 4
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this task?
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
